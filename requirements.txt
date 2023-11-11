@@ -2,3 +2,5 @@ matplotlib
 ogb
 wandb
 networkx
+torch-scatter
+torch-geometric

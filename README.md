@@ -1,6 +1,7 @@
 # Boosting GNNs with Graph Transformations
-**Advisor**: Univ.Ass. Dipl.-Ing. [Fabian Jogl](https://fjo.gl/)
+This repository contains the code for my project at the [Machine Learning Research Unit](https://ml-tuw.github.io/) of the TU Wien Informatics faculty. I am supervised by Univ.Ass. Dipl.-Ing. [Fabian Jogl](https://fjo.gl/). The goal of the project is to implement the graph transformations, find an implementation of the corresponding higher-order GNNss, an implementation of an MPNN, train and compare the MPNN, the MPNN + graph transformation(s), and the higher-order GNN(s).
 
+Context: It is known that message passing graph neural networks (MPNNs) have limitations in the kind of functions they can express. Graph neural networks (GNNs) that can express strictly more functions than MPNNs are known as higher-order GNNs. It is proven that many higher-order GNNs can be seen as a combination of a weaker MPNNs and a graph transformation. However, there is not enough experimental evidence behind this claim which this project tries to solve.
 
 Most of this work builds upon the following papers: 
 - _Expressivity-Preserving GNN Simulation_, NeurIPS, 2023: [paper](https://openreview.net/forum?id=ytTfonl9Wd), [code](https://github.com/ocatias/GNN-Simulation)
